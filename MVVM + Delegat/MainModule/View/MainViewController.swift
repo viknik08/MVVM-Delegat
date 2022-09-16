@@ -27,10 +27,10 @@ class MainViewController: UIViewController, MainViewModelDelegat {
         testView.viewData = data
     }
     
-    func updateViewData(_ viewData: UserData) {
-        testView?.titleLable.text = viewData.title
-        testView?.descriptionLabel.text = viewData.description
-        testView?.imageView.image = UIImage(systemName: viewData.icon ?? "")
+    func updateUserData(_ userData: UserData) {
+        testView?.titleLable.text = userData.title
+        testView?.descriptionLabel.text = userData.description
+        testView?.imageView.image = UIImage(systemName: userData.icon ?? "")
     }
     
 //MARK: - Setup

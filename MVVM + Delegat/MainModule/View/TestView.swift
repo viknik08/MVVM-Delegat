@@ -100,13 +100,14 @@ class TestView: UIView {
         ])
     }
     
-    private func update( isHidden: Bool) {
+    private func update(isHidden: Bool) {
         imageView.isHidden = isHidden
         titleLable.isHidden = isHidden
         descriptionLabel.isHidden = isHidden
     }
     
     private func startStopActivityIndicator(viewData: ViewData?) {
+        
         switch viewData {
 
         case .loading:

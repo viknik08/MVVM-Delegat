@@ -9,7 +9,7 @@ import UIKit
 
 protocol MainViewModelDelegat: AnyObject {
     func updateUserData(_ userData: UserData)
-    func updateData(_ data: ViewData)
+    func updateViewData(_ data: ViewData)
 }
 
 final class MainViewModel {
@@ -18,15 +18,16 @@ final class MainViewModel {
     
     public func startFetch() {
         
-        delegat?.updateData(.loading)
+        delegat?.updateViewData(.loading)
 
         DispatchQueue.main.asyncAfter(deadline: .now() + 3) { [weak self] in
-            self?.delegat?.updateData(.success)
-            self?.delegat?.updateUserData(UserData(icon: "person.fill.checkmark", title: "Hello", description: "No"))
+            self?.delegat?.updateViewData(.success)
+            self?.delegat?.updateUserData(UserData(icon: "person.fill.checkmark", title: "Success", description: "Good job"))
         }
+        
         DispatchQueue.main.asyncAfter(deadline: .now() + 6) { [weak self] in
-            self?.delegat?.updateData(.failure)
-            self?.delegat?.updateUserData(UserData(icon: "person.fill.xmark", title: "GoodBay", description: "yes"))
+            self?.delegat?.updateViewData(.failure)
+            self?.delegat?.updateUserData(UserData(icon: "person.fill.xmark", title: "Fail", description: "Oh no.."))
         }
     }
 }

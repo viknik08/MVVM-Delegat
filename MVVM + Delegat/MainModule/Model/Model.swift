@@ -1,5 +1,5 @@
 //
-//  MainModel.swift
+//  Model.swift
 //  MVVM + Delegat
 //
 //  Created by Виктор Басиев on 16.09.2022.

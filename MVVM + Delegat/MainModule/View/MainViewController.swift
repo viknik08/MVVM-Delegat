@@ -23,7 +23,7 @@ class MainViewController: UIViewController, MainViewModelDelegat {
     
 //MARK: - Delegat
     
-    func updateData(_ data: ViewData) {
+    func updateViewData(_ data: ViewData) {
         testView.viewData = data
     }
     

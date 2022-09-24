@@ -12,7 +12,7 @@
 		BEE09C9B28D4410900541A7C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE09C9A28D4410900541A7C /* MainViewController.swift */; };
 		BEE09CA028D4410D00541A7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE09C9F28D4410D00541A7C /* Assets.xcassets */; };
 		BEE09CB028D4420800541A7C /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE09CAF28D4420800541A7C /* MainViewModel.swift */; };
-		BEE09CB228D4421500541A7C /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE09CB128D4421500541A7C /* MainModel.swift */; };
+		BEE09CB228D4421500541A7C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE09CB128D4421500541A7C /* Model.swift */; };
 		BEE09CB428D4422400541A7C /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE09CB328D4422400541A7C /* TestView.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +24,7 @@
 		BEE09C9F28D4410D00541A7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEE09CA428D4410D00541A7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEE09CAF28D4420800541A7C /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
-		BEE09CB128D4421500541A7C /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		BEE09CB128D4421500541A7C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		BEE09CB328D4422400541A7C /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,7 +88,7 @@
 		BEE09CAC28D441B900541A7C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				BEE09CB128D4421500541A7C /* MainModel.swift */,
+				BEE09CB128D4421500541A7C /* Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -183,7 +183,7 @@
 				BEE09C9B28D4410900541A7C /* MainViewController.swift in Sources */,
 				BEE09C9728D4410900541A7C /* AppDelegate.swift in Sources */,
 				BEE09C9928D4410900541A7C /* SceneDelegate.swift in Sources */,
-				BEE09CB228D4421500541A7C /* MainModel.swift in Sources */,
+				BEE09CB228D4421500541A7C /* Model.swift in Sources */,
 				BEE09CB028D4420800541A7C /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
